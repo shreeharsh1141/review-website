@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+    font-family: sans-serif, "Barlow Semi Condensed";
+}
+
+.main-row{
+    margin: 5% 10%;
+}
+
+/* classes common in all cards */
+
+/* for contents of the card */
+.card{
+    border-radius: 10px;
+    size: auto;
+    margin: 10px 0;
+}
+
+.card-content{ 
+    z-index: 2;
+    padding: 30px;
+}
+
+.profile-image{
+    float: left;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 3rem;
+    margin-right:25px;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.verified{
+    opacity: 70%;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    clear: left ;
+}
+
+.review{
+    opacity: 70%;
+}
+
+/* main row */
+#kira{
+    background-color: hsl(0, 0%, 100%);
+}
+.review-kiara{
+    padding:15px 0 40px;
+}
+
+/* upper internal row */
+
+#quotation{
+    position: absolute;
+    z-index: 1;
+    right: 11%;
+    width: 25%;
+}
+
+#daniel{
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+}
+
+#jonathan{
+    background-color:hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+/* lower internal row */
+
+#jeanette{
+    background-color: hsl(0, 0%, 100%);
+}
+
+#patrick{
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
